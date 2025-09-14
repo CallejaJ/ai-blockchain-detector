@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
-import { Shield, Zap, Lock } from "lucide-react"
+import { ScanLine, FileSearch, Radar } from "lucide-react"
 
 export function HeroSection() {
   return (
@@ -20,21 +20,21 @@ export function HeroSection() {
               transition={{ duration: 20, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
               className="p-3 rounded-full bg-primary/20 border border-primary/30"
             >
-              <Shield className="w-8 h-8 text-primary" />
+              <ScanLine className="w-8 h-8 text-primary" />
             </motion.div>
             <motion.div
               animate={{ scale: [1, 1.1, 1] }}
               transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
               className="p-3 rounded-full bg-accent/20 border border-accent/30"
             >
-              <Zap className="w-8 h-8 text-accent" />
+              <FileSearch className="w-8 h-8 text-accent" />
             </motion.div>
             <motion.div
               animate={{ rotate: -360 }}
               transition={{ duration: 25, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
               className="p-3 rounded-full bg-primary/20 border border-primary/30"
             >
-              <Lock className="w-8 h-8 text-primary" />
+              <Radar className="w-8 h-8 text-primary" />
             </motion.div>
           </div>
 
