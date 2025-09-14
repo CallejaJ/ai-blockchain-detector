@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   description:
     "Detecta textos generados por IA con verificación blockchain. Solución confiable para academia, periodismo y sector legal.",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon/favicon.svg",
+  },
 }
 
 export default function RootLayout({
